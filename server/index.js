@@ -4,7 +4,9 @@ const handle = require('./handlers');
 
 const PORT = 5000;
 app.get('/', (req, res) => {
-    res.json({ hello: "world" });
+    res.json({
+        hello: "world"
+    });
 });
 
 app.use(handle.notFound);
