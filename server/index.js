@@ -4,6 +4,7 @@ const app = express();
 const handle = require('./handlers');
 const cors = require('cors');
 const bodyparser = require('body-parser');
+const db = require('./models');
 app.use(cors());
 app.use(bodyparser.json());
 
