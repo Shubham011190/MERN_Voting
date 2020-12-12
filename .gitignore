@@ -5,6 +5,7 @@
 ### Node ###
 # Logs
 .history/
+server/.env
 logs
 *.log
 npm-debug.log*
